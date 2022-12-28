@@ -1,0 +1,7 @@
+pyrootutils
+pytorch-lightning==1.7.1
+einops
+timm
+imgaug
+omegaconf
+tqdm

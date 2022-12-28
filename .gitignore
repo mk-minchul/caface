@@ -1,0 +1,16 @@
+
+exclude/
+*.pth
+*.csv
+*.ckpt
+*.jpg
+*.png
+*.mp4
+*.jpeg
+__pycachce__
+validation_IJBS
+IJBB__result
+IJBC__result
+result
+experiments/
+*.pyc

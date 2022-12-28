@@ -1,0 +1,34 @@
+--gpus 1
+--prefix test
+--wandb_tags ir_101_arcface
+--arch ir_101_arcface
+--train_data_path WebFace4M
+--data_root /data/data/faces
+--use_precompute_trainrec faceid-processing/webface4m_subset_ir101_style35_augmenterv3_fp16
+--ijb_meta_path IJB/insightface_helper/ijb
+--ijb_aligned_imgs_path IJB/aligned/IJBB
+--tpus 0
+--num_workers 0
+--batch_size 3
+--val_batch_size 64
+--num_images_per_identity 32
+--freeze_model
+--start_from_model_statedict /mckim/MSU/face_rec/facerec_framework/pretrained_models/WebFace200K_R100_ArcFace.pth
+--center_path /mckim/MSU/face_rec/facerec_framework/pretrained_models/center_WebFace200K_R100_ArcFace_webface4m_subset.pth
+--aggregator_name style_norm_srm
+--intermediate_type style
+--style_index 3,5
+--decoder_name catv9_g4_conf512_small
+--center_loss_lambda 1.0
+--limit_train_batches 0.001
+--same_aug_within_group_prob 0.75
+--img_aug_scheme v3
+--datafeed_scheme dual_multi_v1
+--epochs 2
+--lr 1e-3
+--optimizer_type adamw
+--lr_milestones 6,9
+--lr_scheduler step
+--weight_decay 5e-4
+--use_memory
+--memory_loss_lambda 1.0

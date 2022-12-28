@@ -32,7 +32,7 @@ superiority of the proposed two-stage paradigm in unconstrained face recognition
 
 
 ### 5 Minute Video Presentation
-[![IMAGE ALT TEXT](assets/video_thumbnail.png)](youtube.com/watch?v=BH0Ikdw7Chc "CAFace 5 minute video presentation")
+[![IMAGE ALT TEXT](assets/video_thumbnail.png)](https://youtube.com/watch?v=BH0Ikdw7Chc)
 
 
 

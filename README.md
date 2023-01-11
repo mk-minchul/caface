@@ -2,6 +2,7 @@
 # Cluster and Aggregate: Face Recognition with Large Probe Set
 Official repository for the paper
 Cluster and Aggregate: Face Recognition with Large Probe Set (NeurIPS 2022). 
+[paper link](https://arxiv.org/abs/2210.10864)
 
 > Abstract: Feature fusion plays a crucial role in unconstrained face recognition where inputs
 (probes) comprise of a set of N low quality images whose individual qualities

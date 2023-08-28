@@ -5,3 +5,5 @@ timm
 imgaug
 omegaconf
 tqdm
+googledrivedownloader
+checksumdir
